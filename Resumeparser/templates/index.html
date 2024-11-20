@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume Parser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">DD</div>
+            <div class="badge">Resume-Parser</div>
+        </header>
+        <main>
+            <div class="main-content">
+                <h1>Streamline Hiring with Smart Resume Parsing</h1>
+                <p class="description">Unlock the potential of every application with our advanced resume parser, designed to enhance the speed and accuracy of your hiring decisions.</p>
+            </div>
+            <div class="card">
+                <div class="flex-container">
+                    <div style="flex-grow: 1;">
+                        <div class="button-container">
+                            <button id="resultBtn" class="button button-primary">Result</button>
+                            <button id="browseBtn" class="button button-secondary">Browse...</button>
+                        </div>
+                    </div>
+                    <div id="previewArea" class="preview-area">
+                        <div class="resume-bg"></div>
+                        <div id="previewText">Preview Area</div>
+                        <div class="magnifier"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
